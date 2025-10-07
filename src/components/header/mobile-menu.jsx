@@ -6,7 +6,7 @@ import { buttonVariants } from '../ui/button'
 const MobileMenu = () => {
   return (
     <Sheet>
-        <SheetTrigger className={buttonVariants({variant: "navLink", size: "icon"})}>
+        <SheetTrigger className={buttonVariants({variant: "navLink", size: "icon", className: "lg:hidden"})}>
             <Menu className='size-5'/>
         </SheetTrigger>
         <SheetContent className="h-[500px]" side="top">

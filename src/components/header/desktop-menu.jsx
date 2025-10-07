@@ -56,7 +56,7 @@ const components = [
 
 export function DesktopMenu() {
   return (
-    <NavigationMenu viewport={false}>
+    <NavigationMenu className="hidden lg:block" viewport={false}>
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger className={buttonVariants({variant: "navLink"})}>Who We Serve</NavigationMenuTrigger>
